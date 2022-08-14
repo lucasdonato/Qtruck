@@ -56,6 +56,5 @@ describe('Login', () => {
       cy.login({})
       cy.modalHaveText('Por favor, informe suas credenciais!')
     })
-
-  });
+  })
 })
