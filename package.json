@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Fernando Papito",
   "license": "MIT",
+  "scripts": {
+    "test": "npx cypress run"
+  },
   "devDependencies": {
     "cypress": "^10.4.0",
     "cypress-browser-permissions": "^1.1.0"
